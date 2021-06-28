@@ -38,5 +38,16 @@ public class stockHomepageElements {
 	@FindBy (xpath="//button[contains(text(),'Save')]")
 	public WebElement saveBtn;
 	
+	@FindBy (xpath="//*[@id=\"navbarSupportedContent\"]/form[2]/button")
+	public WebElement logoutBtn;
+	
+	@FindBy (xpath="/html/body/nav/button/span")
+	public WebElement expandBtn;
+	
+	@FindBy (xpath="//button[contains(text(),'Log Out')]")
+	public WebElement logoutBtn2;
+	
+	@FindBy (xpath="//div[contains(text(), 'You have been signed out' )]")
+	public WebElement signoutMessage;
 	
 }
