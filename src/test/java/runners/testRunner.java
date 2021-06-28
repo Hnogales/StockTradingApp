@@ -15,7 +15,7 @@ public class testRunner {
 			)
 	public class TestRunner {
 		
-		//dryRun = we are telling to cucumber to run only the scenario steps, not the implementation
+	//dryRun = we are telling to cucumber to run only the scenario steps, not the implementation
 
 	}
 }
