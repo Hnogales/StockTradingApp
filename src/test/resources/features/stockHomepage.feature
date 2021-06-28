@@ -1,3 +1,4 @@
+@story3a
 Feature: Stock Homepage
   User should be able to operate the following tasks from the Homepage
 
