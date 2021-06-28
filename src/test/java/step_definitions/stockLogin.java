@@ -26,5 +26,7 @@ public class stockLogin {
 	public void i_should_be_directed_to_the_login_page() {
 	    
 	}
+	
+	
 
 }

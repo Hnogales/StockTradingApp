@@ -9,13 +9,13 @@ public class testRunner {
 	
 	@RunWith(Cucumber.class)
 	@CucumberOptions(
-			features="./src/test/resources/features",
+			features="./src/test/resources/features", 
 			glue="step_definitions",
 			dryRun=false
 			)
 	public class TestRunner {
 		
-		//dryRun = we are telling to cucumber to run only the scenario steps, not the implementation
+		//dryRun = we are telling cucumber to run only the scenario steps, not the implementation
 
 	}
 }
