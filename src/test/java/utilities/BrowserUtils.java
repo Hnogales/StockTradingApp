@@ -1,7 +1,10 @@
 package utilities;
 
+
+
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
@@ -53,6 +56,17 @@ public class BrowserUtils {
 		for (int i = 0; i < temp.length(); i++) {
 			element.sendKeys(Keys.BACK_SPACE);
 		}
+	}
+	
+	public boolean isElementPresent(WebElement element) {
+		try {
+			element.isDisplayed();
+			
+		} catch(NoSuchElementException e) {
+			return false;
+		}
+		return true;
+		
 	}
 
 }
