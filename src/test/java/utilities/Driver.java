@@ -22,9 +22,9 @@ public class Driver {
 	
 	private static WebDriver driver;
 	public static WebDriver getDriver() {
-		String browser = System.getProperty("browser");
+		String browser = System.getProperty("browserType");
 		if (browser == null) {
-			browser = PropertiesReader.getProperty("browser");
+			browser = PropertiesReader.getProperty("browserType");
 		}
 		if (driver == null || ((RemoteWebDriver) driver).getSessionId() == null) {
 			switch (browser) {
