@@ -17,11 +17,8 @@ import io.cucumber.junit.CucumberOptions;
 
 
 public class testRunner {
-	
-	
-			
 		
-		//dryRun = we are telling to cucumber to run only the scenario steps, not the implementation
+		//dryRun = we are telling cucumber to run only the scenario steps, not the implementation
 
 	
 }
