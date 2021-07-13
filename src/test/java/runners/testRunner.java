@@ -9,7 +9,9 @@ public class testRunner {
 	
 	@RunWith(Cucumber.class)
 	@CucumberOptions(
-			features="./src/test/resources/features", 
+			plugin = {"pretty", "html:Reports/htmlReport.html", // This plugin generates the report
+			"json:Reports/jsonReport.json"},
+			features="./src/test/resources/features",
 			glue="step_definitions",
 			dryRun=false,
 			tags="@"
