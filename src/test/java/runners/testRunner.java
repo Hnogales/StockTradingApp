@@ -11,7 +11,8 @@ public class testRunner {
 	@CucumberOptions(
 			features="./src/test/resources/features", 
 			glue="step_definitions",
-			dryRun=false
+			dryRun=false,
+			tags="@"
 			)
 	public class TestRunner {
 		
