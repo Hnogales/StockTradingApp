@@ -7,4 +7,10 @@ Feature: Stock Homepage
   	Given I am on the Stock Homepage
   	And click on "Add a trade"
   	Then I should be able to add a trade
+  	
+#Einar
+	Scenario: As an external user, once logged in I should be able to log out succesfully  
+		Given I am on the Stock Homepage
+		When I click on "Log out" button
+		Then I should be able to log out of the application
  
