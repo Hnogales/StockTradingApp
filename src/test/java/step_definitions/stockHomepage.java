@@ -77,9 +77,6 @@ public class stockHomepage {
 		Assert.assertEquals(actual, expectedSignoutMessage);
 		
 		Driver.quitDriver();
-		
-	   
-	    
 	    
 	}
 
