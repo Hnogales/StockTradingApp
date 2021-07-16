@@ -27,7 +27,7 @@ public class stockSearch {
 	// senario1
 	@Given("I am on the app log in page")
 	public void i_am_on_the_app_log_in_page() {
-		Driver.getDriver().get(PropertiesReader.getProperty("url"));
+		Driver.getDriver().get(PropertiesReader.getProperty("stockURL"));
 		
 	}
 	@When("I enter valid username {string} and password {string}")
