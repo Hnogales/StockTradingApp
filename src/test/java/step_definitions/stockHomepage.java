@@ -79,5 +79,82 @@ public class stockHomepage {
 		Driver.quitDriver();
 	    
 	}
+	
+	// Angkana 
+	
+	@Given("I am on the app log in page")
+	public void i_am_on_the_app_log_in_page() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@When("I enter valid username {string} and password {string}")
+	public void i_enter_valid_username_and_password(String string, String string2) {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@When("I click signin button")
+	public void i_click_signin_button() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@Then("I am on the Homepage")
+	public void i_am_on_the_homepage() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@When("I click on the Update button for the one of the trades")
+	public void i_click_on_the_update_button_for_the_one_of_the_trades() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@Then("I should be on Save Trade form")
+	public void i_should_be_on_save_trade_form() {
+	    
+	}
+
+	@When("I update the Trade by changing Entry Price to {string}")
+	public void i_update_the_trade_by_changing_entry_price_to(String string) {
+	   
+	}
+
+	@When("I click Save button")
+	public void i_click_save_button() {
+	    
+	}
+
+	@Then("The trade is updated based on the change")
+	public void the_trade_is_updated_based_on_the_change() {
+	   
+	}
+
+	@Then("The trade remains on the same position on the Trade table")
+	public void the_trade_remains_on_the_same_position_on_the_trade_table() {
+	   
+	}
+
+	@Given("I am on the Homepage")
+	public void i_am_on_the_homepage1() {
+	    
+	}
+
+	@When("I update the Trade with invalid data by leaving the symbol field blank {string}")
+	public void i_update_the_trade_with_invalid_data_by_leaving_the_symbol_field_blank(String string) {
+	   
+	}
+
+	@Then("An error message should be displayed as {string}")
+	public void an_error_message_should_be_displayed_as(String string) {
+	    
+	}
+
+	@Then("The trade should not be updated in the database or the table view")
+	public void the_trade_should_not_be_updated_in_the_database_or_the_table_view() {
+	    
+	}
 
 }
