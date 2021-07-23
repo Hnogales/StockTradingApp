@@ -8,6 +8,7 @@ import utilities.Driver;
 
 public class stockLoginElements {
 	
+	
 	// This class contains all our login page elements
 	
 	public stockLoginElements() {						
