@@ -10,6 +10,12 @@ Feature: Stock Homepage
   	And click on "Add a trade"
   	Then I should be able to add a trade
   	
+  	@HomePage
+  Scenario: As a stock Trade app User, i sould be able to long in Homepage.
+  Given I am external user of Stock Trade market APP
+  And I login
+  Then I should be directed to the homepage of the application
+  	
 #Einar
 @logOutScenario @SmokeTest
 	Scenario: As an external user, once logged in I should be able to log out succesfully  
