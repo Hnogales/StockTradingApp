@@ -2,13 +2,13 @@
 Feature: Stock Homepage
   User should be able to operate the following tasks from the Homepage
 
+
 #Tayaba
 @verifyHomepage @SmokeTest
 	Scenario: as a user, I should be directed to the homepage of the application
 		Given I am on the Stock Homepage
 		Then I should be directed to the homepage
-		
-		
+			
 #Einar
 @logOutScenario @SmokeTest
 	Scenario: As an external user, once logged in I should be able to log out succesfully  
