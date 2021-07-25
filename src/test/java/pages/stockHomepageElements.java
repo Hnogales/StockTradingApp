@@ -52,8 +52,6 @@ public class stockHomepageElements {
 	@FindBy(id = "openDate")
 	public WebElement entryDate;
 	
-	
-	
 	@FindBy (xpath="//input[@id='openDate']")
 	public WebElement openDate;
 	
@@ -80,5 +78,45 @@ public class stockHomepageElements {
 	
 	@FindBy (xpath="//div[contains(text(), 'You have been signed out' )]")
 	public WebElement signoutMessage;
+	
+	
+	//Sofia
+	@FindBy (linkText = "Delete")
+	public WebElement deletedBtn;
+	
+	
+	//Giggy
+	@FindBy(id = "username")
+	public WebElement username;
+	
+	@FindBy(id = "password")
+	public WebElement password;
+	
+	@FindBy(xpath = "//button[text()='Search']")
+	public WebElement searchBtn;
+
+	@FindBy(xpath = "//input[@placeholder='Symbol']")
+	public WebElement searchField;
+	
+	@FindBy(xpath = "//input[@type='date']")
+	public WebElement dateField;
+	
+	@FindBy(xpath = "//table[@class='table table-bordered table-striped']/tbody/tr")
+	public WebElement firstRowOfTable;
+	
+	
+	// Tayaba
+	@FindBy(xpath = "//li[@class='nav-item active']//a[@class='nav-link']")
+	public WebElement homeTitle;
+	
+	@FindBy (linkText = "Finom Group")
+	public WebElement finomGroupTitle;
+	
+	@FindBy (linkText = "Slack Channel")
+	public WebElement slackTitle;
+	
+	@FindBy(id = "navbarDropdown")
+	public WebElement toolsDropdown;
+	
 	
 }
